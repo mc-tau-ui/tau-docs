@@ -14,7 +14,7 @@ const config = {
   url: 'https://w1nter-ishere.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/tau-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
