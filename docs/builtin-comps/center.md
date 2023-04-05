@@ -10,3 +10,16 @@ which aligns the child to the center on both horizontal and the vertical axis.
 
 ## Space Behaviour
 - Minimum
+
+## Example
+```java
+public class TestCenter implements UIComponent {
+    @Override
+    public UIComponent build(Layout layout) {
+        return new Center(new Text.Builder("Center!"));
+    }
+}
+```
+
+## What it looks like
+![An image of center in effect](./img/center.png)

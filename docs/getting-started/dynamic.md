@@ -12,18 +12,15 @@ This is an example of a `DynamicUIComponent`
 ```java
 public class ExampleDynamic extends DynamicUIComponent {
     private int t;
-    private Layout layout;
 
     @Override
     public void tick() {
         t++;
-        if (layout == null) return;
-        rebuild(layout);
+        rebuild();
     }
 
     @Override
     public UIComponent build(Layout layout) {
-        this.layout = layout;
         return new Align.Builder()
                 .withVertical(LayoutSetting.START)
                 .withHorizontal(LayoutSetting.END)
@@ -33,10 +30,9 @@ public class ExampleDynamic extends DynamicUIComponent {
 ```
 
 So here, you can see `DynamicUIComponent` has a method called `tick` that you can override. In this case, a value `t` is being incremented
-every tick, and if the layout is ready, which it should be when `tick` is called, it will rebuild this widget to reflect the change of 
-`t` as the value of it is used by `Text`.
+every tick, and the UI is being rebuilt.
 
-:::danger
+:::warning
 
 Note that `DynamicUIComponent` is an abstract class, and it has fields used to update the UI when rebuilt, DO NOT touch those unless
 you absolutely know what you are doing.

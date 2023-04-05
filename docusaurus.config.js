@@ -11,15 +11,17 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://w1nter-ishere.github.io',
+  url: 'https://mc-tau-ui.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/tau-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'w1nter-ishere', // Usually your GitHub org/user name.
-  projectName: 'tau-docs', // Usually your repo name.
+  organizationName: 'mc-tau-ui', // Usually your GitHub org/user name.
+  projectName: 'mc-tau-ui.github.io', // Usually your repo name.
+  deploymentBranch: 'main',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

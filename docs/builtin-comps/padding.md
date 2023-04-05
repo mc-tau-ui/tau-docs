@@ -11,3 +11,21 @@
 
 ## Size Behaviour
 - Minimum
+
+## Example
+```java
+public class TestPadding implements UIComponent {
+    @Override
+    public UIComponent build(Layout layout) {
+        return new Align.Builder()
+                .withVertical(LayoutSetting.START)
+                .withHorizontal(LayoutSetting.END)
+                .build(new Padding(
+                    new Pad.Builder().withRight(10).withTop(10).build(), 
+                    new Text.Builder("Top right corner")));
+    }
+}
+```
+
+## What it looks like
+![An image of padding in effect](./img/padding.png)

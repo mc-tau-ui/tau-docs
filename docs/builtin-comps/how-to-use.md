@@ -26,3 +26,9 @@ Here, it will also say if a parameter is optional or not, if it is, it will stat
 This can be either minimum or maximum.
 Minimum means that the component will only take up as much space as it needs.
 Maximum means that the component will take up as much space as it can.
+
+### Example
+A snippet of example code that uses the component
+
+### What it looks like
+An image of what the example code will look like

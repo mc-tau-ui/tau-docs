@@ -13,3 +13,22 @@ callback that will be called when the button is clicked
 
 ## Space Behaviour
 - Maximum
+
+## Example
+```java
+public class TestButton implements UIComponent {
+    @Override
+    public UIComponent build(Layout layout) {
+        return new Center(new Sized(
+            Size.staticSize(100, 20),
+            new Button.Builder()
+                .build(new Center(new Text.Builder("Button")))
+        ));
+    }
+}
+```
+
+## What it looks like
+The button is grayed out because no `onPress` is defined. 
+
+![An image of button in effect](./img/button.png)

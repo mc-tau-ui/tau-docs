@@ -13,3 +13,18 @@
 
 ## Space Behaviour
 - Maximum
+
+## Example
+```java
+public class TestContainer implements UIComponent {
+    @Override
+    public UIComponent build(Layout layout) {
+        return new Container.Builder()
+            .withColor(Color.BLUE)
+            .withChild(new Center(new Text.Builder("Blue!!")));
+    }
+}
+```
+
+## What it looks like
+![An image of container in effect](./img/container.png)

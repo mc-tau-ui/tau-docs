@@ -15,3 +15,19 @@
 
 ## Space Behaviour
 - Minimum
+
+## Example
+```java
+public class TestAlign implements UIComponent {
+    @Override
+    public UIComponent build(Layout layout) {
+        return new Align.Builder()
+                .withVertical(LayoutSetting.END)
+                .withHorizontal(LayoutSetting.CENTER)
+                .build(new Text.Builder("Whats up?"));
+    }
+}
+```
+
+## What it looks like
+![An image of align in effect](./img/align.png)
