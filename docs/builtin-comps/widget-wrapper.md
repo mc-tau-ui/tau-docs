@@ -28,5 +28,9 @@ public class TestWidgetWrapper implements UIComponent {
 }
 ```
 
+:::info
+The built-in slider widget is basically that code above!
+:::
+
 ## What it looks like
 ![An image of widget wrapper in effect](./img/widgetwrapper.png)

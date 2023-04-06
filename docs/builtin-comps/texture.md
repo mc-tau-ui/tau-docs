@@ -27,12 +27,11 @@
 public class TestTexture implements UIComponent {
     @Override
     public UIComponent build(Layout layout) {
-        return new Center(new Texture.Builder()
-                .withUvSize(new Vector2i(176, 166))
-                .build(InventoryScreen.INVENTORY_LOCATION));
+        return new Center(new Texture.Builder(InventoryScreen.INVENTORY_LOCATION)
+                .withUvSize(new Vector2i(176, 166));
     }
 }
 ```
 
 ## What it looks like
-![An image of texture in effect](./img/texture.png)
+<!-- ![An image of texture in effect](./img/texture.png) -->
