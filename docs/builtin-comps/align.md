@@ -11,7 +11,7 @@
     - How the child component should be aligned vertically.
     - Default: Start (Top)
 3. `child`
-    - The child component to align
+    - The child component to align.
 
 ## Space Behaviour
 - Minimum

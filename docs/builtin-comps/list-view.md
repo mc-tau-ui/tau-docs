@@ -4,14 +4,14 @@
 - Creates a scrollable list of given children
 
 ## Builder Parameters
-1. `spacing` (Optional):
-    - The spacing between each child of the list
+1. `spacing` (Optional)
+    - The spacing between each child of the list.
     - Default: 0
-2. `alignment` (Optional):
-    - Where to align the children
+2. `alignment` (Optional)
+    - Where to align the children.
     - Default: Center
-3. `children`:
-    - The children to create a scrollable list from
+3. `children`
+    - The children to create a scrollable list from.
 
 ## Size Behaviour
 - Maximum
@@ -55,4 +55,4 @@ public class TestListView implements UIComponent {
 ```
 
 ## What it looks like
-TODO
+![An image of list view in effect](./img/listview.png)

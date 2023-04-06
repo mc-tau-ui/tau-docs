@@ -4,10 +4,10 @@
 - When its child is hovered, renders a tooltip on the screen
 
 ## Builder Parameters
-1. `text`:
+1. `text`
     - The text to be drawn, can be added by a list to create multiple lines.
-2. `child`:
-    - The `UIComponent` that will display the tooltip when hovered
+2. `child`
+    - The `UIComponent` that will display the tooltip when hovered.
 
 ## Size Behaviour
 - Minimum
@@ -25,4 +25,4 @@ public class TestTooltip implements UIComponent {
 ```
 
 ## What it looks like
-TODO
+![An image of tooltip in effect](./img/tooltip.png)

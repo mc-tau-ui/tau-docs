@@ -6,7 +6,7 @@ which aligns the child to the center on both horizontal and the vertical axis.
 
 ## Parameters
 1. `child`
-    - The child to center
+    - The child to center.
 
 ## Space Behaviour
 - Minimum

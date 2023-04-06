@@ -4,14 +4,14 @@
 - Clips the child component to a given size and offset
 
 ## Builder Parameters
-1. `size` (Optional):
-    - The size of the clip, anything outside will not be rendered
+1. `size` (Optional)
+    - The size of the clip, anything outside will not be rendered.
     - Default: the full child size
-2. `offset` (Optional):
-    - The offset of the clip starting from the top-left corner of the child
+2. `offset` (Optional)
+    - The offset of the clip starting from the top-left corner of the child.
     - Default: (0, 0)
-3. `child`:
-    - The `UIComponent` to be clipped
+3. `child`
+    - The `UIComponent` to be clipped.
 
 ## Size Behaviour
 - Minimum

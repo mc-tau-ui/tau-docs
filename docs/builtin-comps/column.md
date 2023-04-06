@@ -12,6 +12,9 @@
 3. `sizeBehaviour` (Optional)
     - The behavior of the `Column` in regard to its size.
     - Default: min
+4. `alignment` (Optional)
+    - The horizontal alignment of the children.
+    - Default: Center
 
 ## Space Behaviour
 - Can be changed via parameter `sizeBehaviour`

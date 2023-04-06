@@ -99,11 +99,11 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
+                label: 'Doc GitHub',
                 href: 'https://github.com/W1nter-isHere/tau-docs',
               },
               {
-                label: 'Source',
+                label: 'Tau Github',
                 href: 'https://github.com/W1nter-isHere/Tau'
               },
               {
