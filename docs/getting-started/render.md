@@ -8,12 +8,11 @@ Now you have a UI, time to render it onto the screen to see it.
 Currently, you have 2 options when it comes to rendering a Tau UI.
 
 ## Option One: `ScreenUIRenderer`
-The `ScreenUIRenderer` will render the UI onto the screen as a Minecraft Screen. Meaning it will have the gray translucent background
-and it will pause the game when you open the screen.
+The `ScreenUIRenderer` will render the UI onto the screen as a Minecraft Screen. The second parameter determines whether or not it should render a translucent gray background that all minecraft screens have. This screen will pause the game when you open the screen.
 
 You can open the screen with 
 ```java
-Minecraft.getInstance().setScreen(new ScreenUIRenderer(new ExampleUI()));
+Minecraft.getInstance().setScreen(new ScreenUIRenderer(new ExampleUI(), true));
 ```
 
 `ScreenUIRenderer` just extends the Minecraft `Screen` class. You can extend `ScreenUIRenderer` and override `shouldPauseGame` or anything

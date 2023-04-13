@@ -1,6 +1,6 @@
 # Slider
 
-## What it is
+## What it does
 - This is just a regular slider you see in any UI.
 
 ## Builder Parameters
