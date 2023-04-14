@@ -10,9 +10,11 @@
 2. `color` (Optional)
     - The background color of the container. Set to `null` or do not call `withColor` to have no background.
     - Default: null (Transparent)
+3. `sizeBehaviour` (Optional)
+    - Defines the size behaviour, max to fill all available space, min to use child size. If child is not defined min will not have an effect.
 
 ## Space Behaviour
-- Maximum
+- Defined by `sizeBehaviour`
 
 ## Example
 ```java
