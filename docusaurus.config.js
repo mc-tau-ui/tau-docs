@@ -58,7 +58,8 @@ const config = {
         title: 'Tau Docs',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo_light.svg',
+          srcDark: 'img/logo.svg',
         },
         items: [
           {
