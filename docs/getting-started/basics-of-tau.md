@@ -18,9 +18,9 @@ Here is an example:
 ```java
 public class ExampleUI implements UIComponent {
     @Override
-    public UIComponent build(Layout layout) {
+    public UIComponent build(Layout layout, Theme theme) {
         return new Stack(
-            new Container.Builder().withColor(Color.WHITE),
+            new Container.Builder(),
             new Center(new Sized(
                 Size.staticSize(new Vector2i(100, 20)),
                 new TextField.Builder()
